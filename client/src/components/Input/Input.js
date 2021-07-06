@@ -2,7 +2,7 @@ import './Input.css'
 
 export default function Input({message, setMessage,sendMessage}){
   return(
-    <form action="">
+    <form className='form'>
       <input
         type="text"
         className='input'
